@@ -50,6 +50,11 @@ ul,li{
 .w100{
 	width: 100%;
 }
+.modal-header{
+	background: url(../img/Mask.png) no-repeat center center;
+	background-size: cover;
+	height: 272px;
+}
 .head{
 	height: 400px;
 }
@@ -379,11 +384,7 @@ ul,li{
 .modal-body table tr:nth-of-type(even){
 	background-color: #b6bfe4;
 }
-.modal-header{
-	background: url(../img/Mask.png) no-repeat center center;
-	background-size: cover;
-	height: 272px;
-}
+
 .modal{
 	padding-top: 100px;
 	box-sizing: border-box;

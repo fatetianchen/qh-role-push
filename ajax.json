@@ -280,25 +280,5 @@
 		"Index":53,
 		"Image":"03_chara_053.png",
 		"Tile":"<table class='table'><tr><th>改动数值</th><th>变更项</th><th>调整内容</th></tr><tr><td>・C间隔距离「9」→「10.5」</td><td></td><td></td></tr><tr><td>・D间隔距离「8.5」→「9.25」</td><td></td><td></td></tr><tr><td>・2C：攻击判定扩大1F目「y6」→「y7」、2F目「h8」→「h9」</td><td>蹲重拳</td><td>扩大攻击判定。</td></tr><tr><td>・K投：全程硬直「31+39F」→「31+31F」</td><td>虚空闪</td><td>全程硬直时间变短。</td></tr><tr><td>・弱坚固冰刃：移動値「初速x1.25」→「x1.5」</td><td>坚固冰刃（弱）</td><td>延长移动距离。</td></tr><tr><td>・EX坚固冰刃：攻击判定扩大「w6.5」→「w7」</td><td>坚固冰刃（EX）</td><td>扩大攻击判定。</td></tr><tr><td>・真空投：投技发生「12F」→「14F」</td><td>真空投</td><td>延迟投技发生时间。</td></tr><tr><td>・EX真空投：无敌时间（+2F）、投技发生「12F」→「14F」</td><td>真空投（EX）</td><td>增加无敌时间。<br>延迟投技发生时间。</td></tr><tr><td>・MAX光之拳：飞行道具无敌新增「9F～12F」</td><td>光之拳（MAX）</td><td>增加对飞行道具的无敌时间。</td></tr></table>"
-	},{
-		"Name":"坂崎良",
-		"Index":54,
-		"Image":"03_chara_054.png",
-		"Tile":"<table class='table'><tr><th>改动数值</th><th>变更项</th><th>调整内容</th></tr><tr><td>暂无数据</td></tr></table>"
-	},{
-		"Name":"坂崎良",
-		"Index":55,
-		"Image":"03_chara_055.png",
-		"Tile":"<table class='table'><tr><th>改动数值</th><th>变更项</th><th>调整内容</th></tr><tr><td>暂无数据</td></tr></table>"
-	},{
-		"Name":"坂崎良",
-		"Index":56,
-		"Image":"03_chara_056.png",
-		"Tile":"<table class='table'><tr><th>改动数值</th><th>变更项</th><th>调整内容</th></tr><tr><td>暂无数据</td></tr></table>"
-	},{
-		"Name":"坂崎良",
-		"Index":57,
-		"Image":"03_chara_057.png",
-		"Tile":"<table class='table'><tr><th>改动数值</th><th>变更项</th><th>调整内容</th></tr><tr><td>暂无数据</td></tr></table>"
 	}]
 	}

@@ -1,0 +1,431 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	/*background: #000 url(../img/bg.jpg) no-repeat center center;*/
+	background-color: #000;
+	background-size: cover;
+	font-family: "微软雅黑";
+	font-size: 22px;
+	color: white;
+	position: relative;
+}
+body.modal-open {
+  padding-right: 0 !important;
+  overflow-y: scroll;
+}
+.clearfix:after,.clearfix:before{  /*清除浮动*/
+   content: "";
+   display: table;
+}
+.clearfix:after{
+   clear: both;
+}
+.clearfix{
+  *zoom:1; /*兼容IE和IE7*/
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.poa{
+	position: absolute;
+}
+.por{
+	position: relative;
+}
+.wrap{
+	width: 1350px;
+	margin: 0 auto;
+}
+.w100{
+	width: 100%;
+}
+.head{
+	height: 400px;
+}
+.head .cont{
+	height: 100%;
+	background: url(../img/bg-head.png) no-repeat top center;
+	background-size: cover ;
+}
+.Modifies-whole{
+	margin-top: 20px;
+}
+.whole-head{
+	width: 208px;
+	height: 78px;
+	background: url(../img/wol.png) no-repeat center center;
+	background-size: cover;
+	margin: 0 auto;
+}
+.con-ul{
+	margin-top: 10px;
+	/*background-color: #000;*/
+	/*padding-left: 150px;*/
+	box-sizing: border-box;
+}
+
+
+
+
+.con-ul li{
+	margin-bottom: 30px;
+    line-height: 30px;
+    font-size: 22px;
+}
+.con-ul li i{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	border-radius:50% ;
+	margin-right: 7px;
+}
+.Modifies-role{
+	margin-top: 20px;
+}
+.Modifies-role .role{
+	background: url(../img/role.png) no-repeat center center ;
+	background-size: cover;
+}
+.role-img{
+	display: flex;
+	margin-top: 40px;
+	padding: 0 60px;
+	box-sizing: border-box;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+.role-img li{
+	width: 215px;
+	/*height: 260px;*/
+	margin-bottom: 50px;
+}
+.role-img li .name-img{
+	width: 215px;
+	height: 215px;
+	border-radius:50% ;
+	overflow: hidden;
+	transition: all 0.2s;
+	box-shadow: 0px 0px 30px 4px #25346f;
+}
+.role-img li .name-text{
+	width: 100%;
+	height: 50px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 28px;
+}
+.role-img li .name-img:hover{
+	box-shadow: 0px 0px 90px 30px #25346f;
+}
+.role-img li:hover .name-text{
+	color: #6bd1fb;
+}
+.Mask{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	
+}
+.Mask .Mask-cont{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -335px;
+	margin-left: -561px;
+	width: 1122px;
+	height: 760px;
+	background-color: #fff;
+	border-radius: 10px;
+	
+}
+.Mask-cont-head{
+	width: 100%;
+	height: 273px;
+	background: url(../img/Mask.png) no-repeat center center;
+	position: relative;
+	
+}
+.Mask-cont-head-img{
+	width: 420px;
+	height: 385px;
+	background: url(../images/03_chara_000.png) no-repeat center center;
+	background-size:cover;
+	position: absolute;
+	left: 88px;
+	top: -112px;
+}
+.name-img img{
+	width: 100%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 359px) {
+	.container{
+	padding: 0px 0px;
+}
+	.head{
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 150px;
+}
+.role-img{
+	margin-top: 40px;
+	padding: 0 0px;
+}
+.whole-head {
+    width: 130px;
+    height: 50px;
+}
+.con-ul li {
+    margin-bottom: 16px;
+    line-height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.role-img li {
+    width: 90px;
+/*    height: 90px;*/
+    margin-bottom: 20px;
+}
+.role-img li .name-img {
+    width: 90px;
+    height: 90px;
+}
+.role-img li .name-text {
+    width: 100%;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 12px;
+}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 599px) {
+.container{
+	padding: 0px 5px;
+}
+.head{
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 160px;
+}
+.role-img{
+	margin-top: 40px;
+	padding: 0 0px;
+}
+.con-ul li{
+	margin-bottom: 10px;
+    line-height: 22px;
+    font-size: 16px;
+}
+.whole-head {
+    width: 135px;
+    height: 55px;
+}
+.role-img li {
+    width: 100px;
+    margin-bottom: 20px;
+}
+.role-img li .name-img {
+    width: 100px;
+    height: 100px;
+}
+.role-img li .name-text {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    font-size: 13px;
+}
+}
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+
+.head{
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 160px;
+}
+.role-img{
+	margin-top: 40px;
+	padding: 0 0px;
+}
+.con-ul li{
+	margin-bottom: 10px;
+    line-height: 22px;
+    font-size: 16px;
+}
+.whole-head {
+    width: 135px;
+    height: 55px;
+}
+.role-img li {
+    width: 90px;
+    margin-bottom: 20px;
+}
+.role-img li .name-img {
+    width: 90px;
+    height: 90px;
+}
+.role-img li .name-text {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+.head{
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 200px;
+}
+.role-img{
+	margin-top: 40px;
+	padding: 0 0px;
+}
+.con-ul li{
+	margin-bottom: 10px;
+    line-height: 24px;
+    font-size: 18px;
+}
+.whole-head {
+    width: 135px;
+    height: 55px;
+}
+.role-img li {
+    width: 115px;
+    margin-bottom: 20px;
+}
+.role-img li .name-img {
+    width: 115px;
+    height: 115px;
+}
+.role-img li .name-text {
+    width: 100%;
+    height:35px;
+    line-height: 35px;
+    font-size: 18px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+.head{
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 200px;
+}
+.role-img{
+	margin-top: 40px;
+	padding: 0 0px;
+}
+.con-ul li{
+	margin-bottom: 10px;
+    /*height: 40px;*/
+    line-height: 40px;
+    font-size: 28px;
+}
+.whole-head {
+    width: 200px;
+    height: 80px;
+}
+.role-img li {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.role-img li .name-img {
+    width: 150px;
+    height: 150px;
+}
+.role-img li .name-text {
+    width: 100%;
+    height:40px;
+    line-height: 40px;
+    font-size: 24px;
+}
+}
+@media only screen and (min-width: 993px) and (max-width: 1366px) {
+	.modal-lg {
+    width: 1200px;
+}
+}
+
+.modal-body table{
+	font-size: 12px;
+	color: #000;
+	
+}
+.modal-body table th{
+	color: #0535fa;
+	font-size: 14px;
+	border-top: none !important;
+}
+.modal-body table td{
+	border-top: none !important;
+}
+.modal-body table tr:nth-of-type(even){
+	background-color: #b6bfe4;
+}
+.modal-header{
+	background: url(../img/Mask.png) no-repeat center center;
+	background-size: cover;
+	height: 272px;
+}
+.modal{
+	padding-top: 100px;
+	box-sizing: border-box;
+}
+.modal-header .poa{
+	left: 0px;
+	bottom: 0px;
+	width: 600px;
+	height: 385px;
+	
+	}	
+.modal-body{
+	padding: 0px 0px !important;
+}
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+.modal-header .poa{
+	left: 0px;
+	bottom: 0px;
+	width: 280px;
+    height: 225px;
+	}	
+.modal-header{
+	height: 145px;
+}
+}
+.Modal-z{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	display: none;
+}
+.M-logo{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 100px;
+	height: 100px;
+	background: url(../img/logo.gif) no-repeat center center;
+	background-size: 100%;
+	margin-top: -50px;
+	margin-left: -50px;
+}

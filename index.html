@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>拳皇</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	</head>
+	
+	<body>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog modal-lg" role="document">
+		    <div class="modal-content modal-lg">
+		      <div class="modal-header por">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <div class="poa nameimg"></div>
+		      </div>
+		      <div class="modal-body ">
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="head container-fluid">
+			<div class="cont container">				
+			</div>
+			
+		</div>
+		<div class="container-fluid">
+			<div class="Modifies-whole container">
+				<div class="whole-head">					
+				</div>
+				<ul class="clearfix con-ul w100">
+					<li><i></i>修正了在蓄力指令的蓄力输入完成时输入与蓄力方向无关的方向后，一定时间以内再次输入蓄力方向的方向键时蓄力输入完成的状态持续的错误。</li>
+					<li><i></i>开始防御后直到防御敌人的攻击为止的时间内变更为投技不会成功。</li>
+					<li><i></i>紧急回避、防御取消的硬直时间和移动距离调整为全角色相同。</li>
+					<li><i></i>变更了对于部分飞行道具防御点成功防御时的击停时间。</li>
+					<li><i></i>变更了晕眩状态被击飞中的敌人的体积碰撞系数。</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="Modifies-role container">
+				<div class="whole-head role">					
+				</div>
+				<ul class="role-img w100 " id="container">
+					<li >
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/0.png"/>
+						</div>
+						<div class="name-text">草薙京</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/1.png"/>
+						</div>
+						<div class="name-text">二阶堂红丸</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/2.png"/>
+						</div>
+						<div class="name-text">大门五郎</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/3.png"/>
+						</div>
+						<div class="name-text">坂崎良</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/4.png"/>
+						</div>
+						<div class="name-text">罗伯特·加西亚</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/5.png"/>
+						</div>
+						<div class="name-text">坂崎百合</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/6.png"/>
+						</div>
+						<div class="name-text">特瑞·博加德</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/7.png"/>
+						</div>
+						<div class="name-text">安迪·博加德</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/8.png"/>
+						</div>
+						<div class="name-text">东丈</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/9.png"/>
+						</div>
+						<div class="name-text">莉安娜·哈迪兰</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/10.png"/>
+						</div>
+						<div class="name-text">拉尔夫·琼斯</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/11.png"/>
+						</div>
+						<div class="name-text">克拉克·史迪尔</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/12.png"/>
+						</div>
+						<div class="name-text">八神庵</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/13.png"/>
+						</div>
+						<div class="name-text">麦卓</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/14.png"/>
+						</div>
+						<div class="name-text">薇丝</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/15.png"/>
+						</div>
+						<div class="name-text">金</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/16.png"/>
+						</div>
+						<div class="name-text">刚一</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/17.png"/>
+						</div>
+						<div class="name-text">梁</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/18.png"/>
+						</div>
+						<div class="name-text">麻宫雅典娜</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/19.png"/>
+						</div>
+						<div class="name-text">椎拳崇</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/20.png"/>
+						</div>
+						<div class="name-text">镇元斋</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/21.png"/>
+						</div>
+						<div class="name-text">扎那杜</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/22.png"/>
+						</div>
+						<div class="name-text">陈国汉</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/23.png"/>
+						</div>
+						<div class="name-text">蔡宝奇</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/24.png"/>
+						</div>
+						<div class="name-text">K'</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/25.png"/>
+						</div>
+						<div class="name-text">库拉·戴尔蒙多</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/26.png"/>
+						</div>
+						<div class="name-text">马克西马</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/27.png"/>
+						</div>
+						<div class="name-text">吉斯·霍华德</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/28.png"/>
+						</div>
+						<div class="name-text">比利·凯恩</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/29.png"/>
+						</div>
+						<div class="name-text">海恩</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/30.png"/>
+						</div>
+						<div class="name-text">琼</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/31.png"/>
+						</div>
+						<div class="name-text">不知火舞</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/32.png"/>
+						</div>
+						<div class="name-text">艾丽丝</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/33.png"/>
+						</div>
+						<div class="name-text">娜可露露</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/34.png"/>
+						</div>
+						<div class="name-text">恋心</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/35.png"/>
+						</div>
+						<div class="name-text">蜜蜜</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/36.png"/>
+						</div>
+						<div class="name-text">拉蒙</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/37.png"/>
+						</div>
+						<div class="name-text">安琪儿</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/38.png"/>
+						</div>
+						<div class="name-text">暴龙王</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/39.png"/>
+						</div>
+						<div class="name-text">瞬影</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/40.png"/>
+						</div>
+						<div class="name-text">唐福禄</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/41.png"/>
+						</div>
+						<div class="name-text">明天君</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/42.png"/>
+						</div>
+						<div class="name-text">尼尔森</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/43.png"/>
+						</div>
+						<div class="name-text">瑟琳娜</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/44.png"/>
+						</div>
+						<div class="name-text">班德拉斯·服部</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/45.png"/>
+						</div>
+						<div class="name-text">希尔薇·波拉·波拉</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/46.png"/>
+						</div>
+						<div class="name-text">库克里</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/47.png"/>
+						</div>
+						<div class="name-text">美杏</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/48.png"/>
+						</div>
+						<div class="name-text">安东诺夫</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/49.png"/>
+						</div>
+						<div class="name-text">威尔斯</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/50.png"/>
+						</div>
+						<div class="name-text">洛克·霍华德</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/51.png"/>
+						</div>
+						<div class="name-text">山崎龙二</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/52.png"/>
+						</div>
+						<div class="name-text">温妮莎</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/53.png"/>
+						</div>
+						<div class="name-text">薇普</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/54.png"/>
+						</div>
+						<div class="name-text">暂无</div>
+					</li>
+					<li>
+						<div class="name-img" >
+						<img  class="lazy" data-original="img/55.png"/></div>
+						<div class="name-text">暂无</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/56.png"/>
+						</div>
+						<div class="name-text">暂无</div>
+					</li>
+					<li>
+						<div class="name-img" >
+							<img  class="lazy" data-original="img/57.png"/>
+						</div>
+						<div class="name-text">暂无</div>
+					</li>
+				</ul>
+			</div>		
+		</div>
+		
+		<div class="Modal-z">
+			<div class="M-logo"></div>
+		</div>
+	</body>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.lazyload.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/js.js" type="text/javascript" charset="utf-8"></script>
+</html>
